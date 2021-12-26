@@ -34,6 +34,7 @@
     
     <!-- Custom styles for this template -->
     <link href="../css/carousel.css" rel="stylesheet">
+    <link href="../css/detail.css" rel="stylesheet">
        <script src="../js/jquery.min.js"></script>
     <script src="../js/detail.js"></script>
 
@@ -59,7 +60,9 @@
           <article class="blog-post">
             <h2 class="blog-post-title" id="blog-title" >博客标题</h2>
             <p class="blog-post-meta" id="blog-time">January 1, 2021 </p>
-            <pre><div id="blog-description"></div></pre>
+            <!-- 文本超出自动换行，并且行高自适应 -->
+            <pre style="white-space:pre-wrap"><div id="blog-description"></div></pre>
+            <!-- <p style="white-space:pre-wrap"><div id="blog-description"></div></p> -->
           </article>
         </div>
     

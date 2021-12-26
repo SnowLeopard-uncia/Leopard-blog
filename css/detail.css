@@ -1,0 +1,10 @@
+.parentContent{
+    height: 100px;
+    line-height: 100px;
+    position: relative;
+ }
+ .sonContent{
+    display: inline-block;
+    line-height: 50px;
+    vertical-align: middle;
+ }
